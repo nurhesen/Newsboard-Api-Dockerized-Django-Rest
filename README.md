@@ -12,6 +12,10 @@ Features:
   - Celery task: Deletes all upvotes every day at 10:30 am<br>
   
   <br>
+  
+  
+  
+  
   Installation using Docker:<br>
   
   ````````````
@@ -22,6 +26,17 @@ Features:
   docker-compose up
   
   ````````````
+  
+  
+  Postman file for API
+
+``````
+
+NewsBoard Collection.postman_collection.json
+
+``````
+  
+  
   
 Manual Installation Windows:<br>
 
@@ -74,11 +89,5 @@ celery -A newsboard beat -l info
 
 ``````
 
-Postman file
 
-``````
-
-NewsBoard Collection.postman_collection.json
-
-``````
 
