@@ -17,7 +17,7 @@ Features:
   ````````````
   
   git clone https://github.com/nurhesen/newsboard-docker.git
-  cd newsboard
+  cd newsboard-docker
   docker-compose build
   docker-compose up
   
@@ -29,8 +29,8 @@ Clone and install project
 
 ````````````
 
-git clone https://github.com/nurhesen/newsboard.git
-cd newsboard
+git clone https://github.com/nurhesen/newsboard-docker.git
+cd newsboard-docker
 virtualenv venv
 venv\Scripts\activate
 pip install -r requirements.txt
