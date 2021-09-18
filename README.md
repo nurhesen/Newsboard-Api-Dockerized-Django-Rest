@@ -89,11 +89,11 @@ celery -A newsboard beat -l info
 
 ``````
 
-Deployed version on heroku:<br><br>
+Deployed version on heroku:<br>
+https://arcane-castle-06441.herokuapp.com/api/<br><br>
 (It only has the task that deletes upvotes once a day)<br><br>
 Admin auth username: test<br>
 Admin auth password: test<br><br>
-https://arcane-castle-06441.herokuapp.com/api/
 
 
 
